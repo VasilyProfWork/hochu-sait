@@ -3934,13 +3934,32 @@
                 if (document.querySelector("#splide3")) new Splide("#splide3", {
                     perPage: 3,
                     perMove: 1,
-                    gap: 20
+                    gap: 20,
+                    breakpoints: {
+                        991: {
+                            perPage: 2
+                        },
+                        700: {
+                            perPage: 1
+                        }
+                    }
                 }).mount();
                 if (document.querySelector("#splide4")) new Splide("#splide4", {
                     perPage: 6,
                     perMove: 1,
                     type: "loop",
-                    gap: 20
+                    gap: 20,
+                    breakpoints: {
+                        900: {
+                            perPage: 4
+                        },
+                        600: {
+                            perPage: 3
+                        },
+                        500: {
+                            perPage: 2
+                        }
+                    }
                 }).mount();
                 if (document.querySelector("#splide5")) new Splide("#splide5", {
                     perPage: 1,
