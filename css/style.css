@@ -689,11 +689,17 @@ h6 {
 }
 @media (max-width: 1700px) {
   .header__background4 {
-    bottom: 140px;
-    right: 380px;
+    bottom: 311px;
+    right: 592px;
   }
   .header__background4 img {
     max-width: 70px;
+  }
+}
+@media (max-width: 75em) {
+  .header__background4 {
+    right: 390px;
+    bottom: 270px;
   }
 }
 @media (max-width: 61.99875em) {
