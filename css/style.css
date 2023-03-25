@@ -690,7 +690,7 @@ h6 {
 @media (max-width: 1700px) {
   .header__background4 {
     bottom: 311px;
-    right: 592px;
+    right: 470px;
   }
   .header__background4 img {
     max-width: 70px;
@@ -698,7 +698,7 @@ h6 {
 }
 @media (max-width: 75em) {
   .header__background4 {
-    right: 390px;
+    right: 370px;
     bottom: 270px;
   }
 }
@@ -720,14 +720,14 @@ h6 {
 }
 .header__background6 {
   position: absolute;
-  bottom: 64px;
-  right: 142px;
+  bottom: 0px;
+  right: 0px;
   z-index: -3;
 }
 @media (max-width: 1700px) {
   .header__background6 {
     bottom: 85px;
-    right: 50px;
+    right: -110px;
   }
   .header__background6 img {
     max-width: 850px;
@@ -736,7 +736,7 @@ h6 {
 @media (max-width: 75em) {
   .header__background6 {
     bottom: 110px;
-    right: 0;
+    right: -50px;
   }
   .header__background6 img {
     max-width: 620px;
