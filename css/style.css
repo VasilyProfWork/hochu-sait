@@ -720,19 +720,20 @@ h6 {
 }
 @media (max-width: 1700px) {
   .header__background6 {
-    bottom: 200px;
+    bottom: 85px;
     right: 50px;
   }
   .header__background6 img {
-    max-width: 650px;
+    max-width: 850px;
   }
 }
 @media (max-width: 75em) {
   .header__background6 {
+    bottom: 110px;
     right: 0;
   }
   .header__background6 img {
-    max-width: 500px;
+    max-width: 620px;
   }
 }
 @media (max-width: 61.99875em) {
